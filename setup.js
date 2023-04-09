@@ -18,7 +18,7 @@ headerIcons.forEach(function (icon) {
 });
 document.querySelector('#margin').style.width = 0.01 * GreaterEdge + 'px';
 
-var Header2Height = 0.025 * GreaterEdge;
+var Header2Height = 0.035 * GreaterEdge;
 var Header2Padding = 0.2 * Header2Height;
 document.querySelector('.header2').style.padding = Header2Padding + 'px';
 var Header2FontSize = Header2Height - Header2Padding * 2;
